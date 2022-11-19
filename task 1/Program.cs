@@ -16,7 +16,7 @@ for (int i = 0; i < size; i++)
     array[i] = new Random().Next(min, max + 1);
 }
 
-for (int i = 0; i < size; i += 2)
+for (int i = 1; i < size; i += 2)
 {
     sum = sum + array[i];
 }
